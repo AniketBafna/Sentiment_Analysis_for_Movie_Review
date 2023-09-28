@@ -4,8 +4,8 @@ import re
 import nltk
 import streamlit as st
 
-#nltk.download('punkt')
-#nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('stopwords')
 
 from PIL import Image
 
