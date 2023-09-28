@@ -50,8 +50,8 @@ def text_preprocessing(text):
 # web app
 def model():
     st.title("Sentiment Analysis of Movie Review")
-    Movie_name = st.text_input("Movie Name", value="Movie Name") 
-    text = st.text_area("Review",value="Write review")
+    Movie_name = st.text_input("Movie Name", value="") 
+    text = st.text_area("Review",value="")
     
     #if text is not None:
         #try:
